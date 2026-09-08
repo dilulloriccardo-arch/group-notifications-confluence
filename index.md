@@ -46,3 +46,8 @@ Notify and subscribe **whole Confluence groups** (including IdP-synced ones) —
 - Marketplace Partner account + Partner Verification (**requires a registered business entity** — see `DOMANDA_FORUM.md`).
 - Privacy & security tab, EULA (Atlassian template), data-handling statements (this app stores only
   accountIds, group ids/names and audit summaries in Forge storage — no content, no PII beyond accountId).
+
+## Policies
+- [Security practices](./security)
+- [Privacy Policy](./privacy)
+- [Support](./support)
