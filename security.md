@@ -1,6 +1,6 @@
 # Security — Group Notifications for Confluence
 
-_Last updated: 2026-09-08_
+_Last updated: 2026-09-10_
 
 This page describes the security practices of **Group Notifications for Confluence** ("the app").
 The [Privacy Policy](./privacy) is a separate document.
@@ -41,14 +41,16 @@ syncs run as the app user and only affect spaces where an administrator has gran
   every release and updated when Atlassian publishes security fixes.
 - Every version passes Atlassian's `forge lint` and the Marketplace security review before release.
 - **Reporting a vulnerability:** email **security@auftragsregister.ch**. You will receive an
-  acknowledgement within **2 business days**. Confirmed issues are fixed and released within
-  **30 days** for high severity and **90 days** otherwise; reporters are informed when the fix ships.
+  acknowledgement within **2 business days**. Confirmed issues are fixed and released within the Atlassian Marketplace Security Bug Fix Policy timelines:
+  **critical within 10 days, high within 4 weeks, medium within 12 weeks, low within 25 weeks** of the report;
+  reporters are informed when the fix ships.
 - The app is not currently enrolled in the Atlassian Marketplace Bug Bounty Program.
 
 ## Incident response
-If a security incident affecting customer data were ever identified, affected customers would be
-notified through the Marketplace listing and the support address within 72 hours, together with the
-impact and the remediation steps.
+If a security incident affecting the app or customer data were identified, Atlassian would be notified
+within 24 hours through a P1 ticket on the Marketplace partner service desk, and affected customers within
+72 hours, with the category and scope of the incident, the data involved, containment measures, root cause,
+remediation and the expected timeline (Atlassian app security incident management guidelines).
 
 ## Certifications
 The app holds no formal security certifications (SOC 2, ISO 27001). It relies on the controls of the
